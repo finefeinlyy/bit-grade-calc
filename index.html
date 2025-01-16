@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BIT Grade Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <h1 class="gradient-text" class="animated-text">
+            <strong>BIT 🫧 </strong>
+            
+        </h1>
+        <h1 class="gradient-text" class="animated-text"><strong>Grade Calculator </strong></h1>
+        <div class="input-group">
+            <label for="semester" >SELECT SEMESTER :</label>
+            <select id="semester"  onchange="loadSubjects()">
+                <option value="">--Select--</option>
+                <option value="year1semester1">Year 1 Semester 1</option>
+                <option value="year1semester2">Year 1 Semester 2</option>
+                <option value="year2semester1">Year 2 Semester 1</option>
+                <option value="year2semester2">Year 2 Semester 2</option>
+                <option value="year3semester1">Year 3 Semester 1</option>
+                <option value="year3semester2">Year 3 Semester 2</option>
+                <option value="year4semester1">Year 4 Semester 1</option>
+                <option value="year4semester2">Year 4 Semester 2</option>
+            </select>
+        </div>
+        <div id="subjects"></div>
+        <div id="additional-subjects"></div>
+        <div class="button-container">
+            <button id="add-subject-btn" onclick="addSubject()">Add Subject</button>
+            <button onclick="calculateGrade()">Calculate</button>
+        </div>       
+        <div class="result" id="result"></div>
+    </div>
+    <p class="update">Last Update: Sat 8 Jun 24 15.15 </p>
+    <script src="script.js"></script>
+</body>
+</html>

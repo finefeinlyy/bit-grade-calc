@@ -1,0 +1,241 @@
+body {
+    font-family: 'Poppins';
+    margin: 50px;
+    padding: 5px;
+    background-color: linear-gradient(to right, #f0c3f68d, #bfcaf5);
+    background: #f0c3f68d; /* For browsers that don't support CSS3 */
+    background: -webkit-linear-gradient(left, #f0c3f68d, #bfcaf5); /* Safari 5.1 to 6.0 */
+    background: -moz-linear-gradient(right, #f0c3f68d, #bfcaf5); /* Firefox 3.6 to 15 */
+    background: -o-linear-gradient(right, #f0c3f68d, #bfcaf5); /* Opera 11.1 to 12.0 */
+    text-align: left;
+}
+
+.gradient-text {
+    font-size: 40px;
+    background: linear-gradient(45deg, #e97777, #8855da);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    text-shadow: 8px 8px 8px rgba(124, 115, 115, 0.135);
+    animation: customAni2 2s ease 0s 1 normal none;
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 17.3px;
+    border-radius: 5px;
+    
+    animation: customAni 2s linear 0s 1 normal none;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 17.3px;
+    font-family: 'Poppins';
+    color: rgba(57, 33, 84, 0.636); 
+    text-shadow: rgb(202, 192, 192) 1px 1px 1px;
+}
+
+select, input[type="text"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+    color: rgba(57, 33, 84, 0.511);
+    border: 1px solid rgba(66, 62, 62, 0.101);
+    border-radius: 14px;
+    box-shadow: grey 4px 4px 4px;
+}
+
+button {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font: inherit;
+    font-size: 15px;
+    background: linear-gradient(to right, #6d41a7, #8a97f9);
+    background: #905fcc; /* For browsers that don't support CSS3 */
+    background: -webkit-linear-gradient(left, #6d41a7, #8a97f9); /* Safari 5.1 to 6.0 */
+    background: -moz-linear-gradient(right, #6d41a7, #8a97f9); /* Firefox 3.6 to 15 */
+    background: -o-linear-gradient(right, #6d41a7, #8a97f9); /* Opera 11.1 to 12.0 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    animation: customAni 2s linear 0s 1 normal none;
+}
+
+button:hover {
+    padding: 12px 34px;
+    font-size: 15px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: #9d66e6;
+    background-color: #3600b3;
+    background: linear-gradient(to right, #571ca4, #4e63fd);
+    background: #905fcc; /* For browsers that don't support CSS3 */
+    background: -webkit-linear-gradient(left, #571ca4, #4e63fd); /* Safari 5.1 to 6.0 */
+    background: -moz-linear-gradient(right, #571ca4, #4e63fd); /* Firefox 3.6 to 15 */
+    background: -o-linear-gradient(right, #571ca4, #4e63fd); /* Opera 11.1 to 12.0 */
+}
+
+button:active {
+    background-color: #3600b3;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#add-subject-btn {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font: inherit;
+    background: linear-gradient(to right, #fd78c8, #fcc5e3);
+    background: #eb79df; /* For browsers that don't support CSS3 */
+    background: -webkit-linear-gradient(left, #fd78c8, #fcc5e3); /* Safari 5.1 to 6.0 */
+    background: -moz-linear-gradient(right, #fd78c8, #fcc5e3); /* Firefox 3.6 to 15 */
+    background: -o-linear-gradient(right, #fd78c8, #fcc5e3); /* Opera 11.1 to 12.0 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+#add-subject-btn:hover {
+    padding: 10px 24px;
+    font-size: 15px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: #fe9df7;
+    background: linear-gradient(to right, #f957b8, #f9a2d2);
+    background: #5018a8; /* For browsers that don't support CSS3 */
+    background: -webkit-linear-gradient(left, #f957b8, #f9a2d2); /* Safari 5.1 to 6.0 */
+    background: -moz-linear-gradient(right, #f957b8, #f9a2d2); /* Firefox 3.6 to 15 */
+    background: -o-linear-gradient(right, #f957b8, #f9a2d2); /* Opera 11.1 to 12.0 */
+}
+
+.input-group input[type="text"] {
+    text-align: left;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    font: inherit;
+    font-size: 25px;
+    color: rgba(57, 33, 84, 0.636);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    flex: 1;
+    margin: 0 10px;
+    gap: 5px;
+}
+
+/* Copy this code after the above code */
+@keyframes customAni {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 1;
+      transform: translateY(45px);
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    40% {
+      animation-timing-function: ease-in;
+      transform: translateY(24px);
+    }
+  
+    65% {
+      animation-timing-function: ease-in;
+      transform: translateY(12px);
+    }
+  
+    82% {
+      animation-timing-function: ease-in;
+      transform: translateY(6px);
+    }
+  
+    93% {
+      animation-timing-function: ease-in;
+      transform: translateY(4px);
+    }
+  
+    25%,
+    55%,
+    75%,
+    87% {
+      animation-timing-function: ease-out;
+      transform: translateY(0px);
+    }
+  
+    100% {
+      animation-timing-function: ease-out;
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  
+  /* Copy this code after the above code */
+@keyframes customAni2 {
+    0%,
+    100% {
+      transform: translateX(0%);
+      transform-origin: 50% 50%;
+    }
+  
+    15% {
+      transform: translateX(-30px) rotate(-6deg);
+    }
+  
+    30% {
+      transform: translateX(15px) rotate(6deg);
+    }
+  
+    45% {
+      transform: translateX(-15px) rotate(-3.6deg);
+    }
+  
+    60% {
+      transform: translateX(9px) rotate(2.4deg);
+    }
+  
+    75% {
+      transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+
+  .update {
+    /* margin-bottom: 100px; */
+    margin-top: 150px;
+    padding: 10px;
+    margin-right: 15px;
+    text-align: right;
+    font: inherit;
+    font-size: 15px;
+    color: rgb(102, 119, 123);
+    
+  }
+  
